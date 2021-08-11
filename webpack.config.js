@@ -101,7 +101,7 @@ module.exports={
         new CleanWebpackPlugin(),
     ], 
     // agregamos css-minimizer y terser como parte de optimizacion
-    
+     
     optimization:{
         minimize: true,
         minimizer:[
